@@ -1,0 +1,227 @@
+body{
+	background-color: bisque;
+}
+p{
+	font-size: 50px;
+	color: white;
+}
+marquee{
+	font-size: 50px;
+	color: darkgoldenrod;
+}
+div{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.e1{
+	animation-name: example1;
+	animation-duration: 1s;
+	animation-iteration-count: infinite; 
+
+}
+@keyframes example1{
+	0% {
+        background-color: red;
+    }
+    25% {
+        background-color: orange;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+.e2 {
+    animation-name: example2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+    
+}
+
+@keyframes example2 {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: purple;
+    }
+}
+
+.e3{
+	animation-name: example3;
+	animation-duration: 4s;
+	position: absolute;
+    animation-iteration-count: infinite;
+    width: 100px;
+    height: 100px;
+}
+@keyframes example3{
+	0% {
+        background-color: red; left: 0px; top: 0px;
+    }
+    25% {
+        background-color: orange; left: 200px; top: 0px;
+    }
+    50% {
+        background-color: yellow; left: 200px; top: 200px;
+    }
+    75% {
+        background-color: green; left: 0px; top: 200px;
+    }
+    100% {
+        background-color: blue; left: 0px; top: 0px;
+        
+    }
+}
+
+
+.e4 {
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    animation-name: example4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example4 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.e5{
+	width: 100px;
+    height: 100px;
+	animation-name: example5;
+	animation-duration: 4s;
+	position: absolute;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example5{
+	0% {
+        background-color: red; left: 0px; top: 0px;
+    }
+    25% {
+        background-color: orange; left: 200px; top: 0px;
+    }
+    50% {
+        background-color: yellow; left: 200px; top: 200px;
+    }
+    75% {
+        background-color: green; left: 0px; top: 200px;
+    }
+    100% {
+        background-color: blue; left: 0px; top: 0px;
+        
+    }
+}
+
+.t1{
+	
+	animation-name: examplet1;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     position: relative;
+}
+@keyframes examplet1{
+	from{
+        background-color: red; left: 0px; top: 0px;
+    }
+    to {
+        background-color: orange; left: 1200px; top: 0px;
+    }
+    
+}
+
+
+.t2{
+	
+	animation-name: examplet2;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+     position: relative;
+}
+@keyframes examplet2{
+	from{
+        background-color: black; left: 0px; top: 0px;
+    }
+    to {
+        background-color: white; left: 1200px; top: 0px;
+    }
+    
+}
+
+.t3{
+	
+	animation-name: examplet3;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+     position: relative;
+}
+@keyframes examplet3{
+	from{
+        background-color: yellow; left: 0px; top: 0px;
+    }
+    to {
+        background-color: blue; left: 1200px; top: 0px;
+    }
+    
+}
+
+
+.t4{
+	
+	animation-name: examplet4;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+     position: relative;
+}
+@keyframes examplet4{
+	from{
+        background-color: pink; left: 0px; top: 0px;
+    }
+    to {
+        background-color: gold; left: 1200px; top: 0px;
+    }
+    
+}
+.t5{
+	
+	animation-name: examplet5;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+     position: relative;
+}
+@keyframes examplet5{
+	from{
+        background-color: white; left: 0px; top: 0px;
+    }
+    to {
+        background-color: gold; left: 1200px; top: 0px;
+    }
+    
+}
